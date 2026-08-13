@@ -1,0 +1,32 @@
+# Credenciais reais (WiFi, tokens, chaves de API): nunca commitar.
+# Cada projeto tem um config.example.h (ou env.example.h) com placeholders;
+# copie para o nome real abaixo e preencha com seus dados.
+**/config.h
+relogio/env.h
+
+# Pastas de build/dist geradas pela IDE (ficam vazias na maior parte do tempo)
+.dist/
+**/.dist/
+
+# Bibliotecas de terceiros do Arduino (Adafruit, ArduinoJson, IRremote etc.)
+# Instale via Library Manager, veja o README de cada projeto. Não faz
+# sentido versionar código de terceiros dentro deste repositório.
+libraries/
+
+# Esboços e testes pontuais, sem README dedicado, fora do repositório por enquanto
+pong/
+oled_dht22/
+tempo_api/
+sketch_jul18a/
+
+# Artefatos comuns de compilação
+*.o
+*.hex
+*.bin
+*.elf
+build/
+
+# Sistema operacional / editor
+.DS_Store
+Thumbs.db
+.vscode/
