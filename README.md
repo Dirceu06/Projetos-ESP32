@@ -42,6 +42,3 @@ A pasta `libraries/` (código de terceiros baixado localmente) fica fora do git,
 | [`relogio/`](relogio) | Relógio de mesa com sincronização NTP e sensor de temperatura/umidade |
 | [`monitora_desem/`](monitora_desem) + [`API_Hardware_stats/`](API_Hardware_stats) | Monitor de desempenho do PC (CPU/RAM/GPU) exibido no OLED via streaming (SSE), com servidor em Python |
 
-## Aviso de segurança
-
-Este repositório já teve credenciais reais (senha de WiFi, tokens de API) e dados pessoais (coordenadas de localização, CEP) removidos do código-fonte e movidos para arquivos `config.h`/`env.h` locais, que ficam fora do controle de versão. Se você clonar este repositório, esses dados não vêm junto: siga a seção "Configuração de credenciais" acima para usar os projetos com a sua própria rede, suas próprias chaves de API e a sua localização.
